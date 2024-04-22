@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.content{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left{
+    background-color:#065AD8;
+    width:50%;
+    
+  
+}
+
+.logo{
+    color:white;
+    backdrop-filter: 20px;
+    width:500px;
+    height:400px;
+    margin-top:28%;
+    margin-left:25%;
+   
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 05px;
+    
+}
+
+.com{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    
+}
+
+.quote{
+
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+.notice{
+    font-family: 'Raleway', sans-serif;
+    font-size:13px;
+    opacity: 1;
+    margin-left:100px;
+}
+.reg-btn{
+    background-color:white ;
+    color:#065AD8;
+    text-align: center;
+    width:370px;
+    
+}
+
+.reg-btn:hover, .reg-btn:focus{
+    background-color: white;
+    color:#065AD8;
+}
+
+.brand{
+
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin-left:15px;
+    margin-top:63px;
+    color:#065AD8;
+
+}
+
+.greeting{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin-left:15px;
+}
+
+.greeting-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:25px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#065AD8;
+}
+
+.fields{
+    margin-left:170px;
+}
+.input{
+    width:290px;
+    
+    border: 1px solid grey;
+    border-radius:10px;
+}
+.input:hover,.input:focus{
+    border:1px solid #065AD8;
+    box-shadow: none;
+}
+
+.login-btn{
+    background-color:#065AD8;
+    color:white;
+    margin-top:25px;
+    text-align: center;
+    width:290px;
+}
+.login-btn:hover,.login-btn:focus{
+    background-color: #065AD8;
+    color:white;
+
+}
+
+.input::placeholder{
+    color:#071133;
+}
+
+.logForm{
+    margin-top:20px;
+}
+
+.google,.google:hover,.google:focus{
+    margin-top:20px;
+    margin-left:160px;
+    background-color: white;
+    box-shadow: 0 0 15px lightgray;
+    color:#065AD8;
+}
+.facebook,.facebook:hover,.facebook:focus{
+    margin-top:20px;
+    margin-left:135px;
+    background-color: white;
+    box-shadow: 0 0 15px lightgray;
+    color:#065AD8;
+}
+
+
